@@ -1,0 +1,8 @@
+Copia navegable de Grabarte Studio (solo lectura).
+
+Es la web del simulador "congelada": se ve el diseno, la portada, la tienda y las fichas con el visor 3D.
+Compras, cestas, formularios y subidas no se guardan: la propia web avisa.
+Es una foto de un momento: si cambias algo en el CMS, no se actualiza aqui; hay que volver a generar la copia.
+
+Para publicarla gratis: arrastra esta carpeta (o el .zip) a Cloudflare Pages (subida directa), Netlify Drop o GitHub Pages.
+La pagina de entrada es index.html (redirige a inicio.html). Las paginas llevan "noindex" para que Google no las indexe.
